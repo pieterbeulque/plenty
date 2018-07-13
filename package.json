@@ -1,0 +1,47 @@
+{
+  "name": "plenty",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix index.js; exit 0"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "eslintConfig": {
+    "extends": "@gentsagency/eslint-config",
+    "env": {
+      "browser": false,
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieterbeulque/plenty.git"
+  },
+  "author": "Pieter Beulque <pieterbeulque@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pieterbeulque/plenty/issues"
+  },
+  "homepage": "https://github.com/pieterbeulque/plenty#readme",
+  "dependencies": {
+    "csv-parse": "^2.5.0",
+    "fs-extra": "^6.0.1",
+    "minimist": "^1.2.0",
+    "sanitize-filename": "^1.6.1",
+    "twig": "^1.12.0"
+  },
+  "devDependencies": {
+    "@gentsagency/eslint-config": "^2.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
