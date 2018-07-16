@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs-extra');
 const parseCSV = require('csv-parse');
 const path = require('path');
