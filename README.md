@@ -1,5 +1,7 @@
 # Plenty
 
+[![Build Status](https://travis-ci.com/pieterbeulque/plenty.svg?branch=master)](https://travis-ci.com/pieterbeulque/plenty) [![Coverage Status](https://coveralls.io/repos/github/pieterbeulque/plenty/badge.svg?branch=master)](https://coveralls.io/github/pieterbeulque/plenty?branch=master)
+
 Render a Twig template for every row of a CSV. This might come in handy to generate color variants on SVG-files, HTML e-mail signatures for everyone in your company, …
 
 ## Usage
