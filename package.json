@@ -2,14 +2,20 @@
   "name": "plenty",
   "version": "1.0.1",
   "description": "Render a Twig template for every row of a CSV",
-  "bin": "index.js",
-  "main": "index.js",
+  "bin": "src/plenty.js",
+  "main": "src/plenty.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix index.js; exit 0"
+    "test": "nyc ava tests/*.js --verbose",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint --fix src/*.js; exit 0"
   },
   "engines": {
     "node": ">=8.10.0"
+  },
+  "ava": {
+    "require": [
+      "@babel/register"
+    ]
   },
   "eslintConfig": {
     "extends": "@gentsagency/eslint-config",
@@ -40,8 +46,14 @@
     "twig": "^1.12.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/register": "^7.0.0-rc.1",
     "@gentsagency/eslint-config": "^2.1.0",
+    "ava": "^1.0.0-beta.7",
+    "coveralls": "^3.0.2",
     "eslint": "^5.4.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "nyc": "^12.0.2"
   }
 }

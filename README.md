@@ -17,7 +17,7 @@ There are also two optional arguments:
 --output output
   Output directory
 
---filename '{{ _row }}-output'
+--filename '{{ _row }}'
   Template for file naming.
   All variables from the CSV are available here.
   Use {{ _row }} to render the row number
