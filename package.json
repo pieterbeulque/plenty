@@ -40,7 +40,7 @@
   "homepage": "https://github.com/pieterbeulque/plenty#readme",
   "dependencies": {
     "csv-parse": "^2.5.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^7.0.1",
     "minimist": "^1.2.0",
     "sanitize-filename": "^1.6.1",
     "twig": "^1.12.0"
