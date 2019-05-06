@@ -54,6 +54,6 @@
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.17.2",
-    "nyc": "^14.0.0"
+    "nyc": "^14.1.0"
   }
 }
