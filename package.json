@@ -52,8 +52,8 @@
     "@gentsagency/eslint-config": "^2.1.0",
     "ava": "^2.1.0",
     "coveralls": "^3.0.4",
-    "eslint": "^6.0.0",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint": "^6.0.1",
+    "eslint-plugin-import": "^2.18.0",
     "nyc": "^14.1.1"
   }
 }
