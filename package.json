@@ -42,7 +42,7 @@
     "csv-parse": "^4.4.3",
     "fs-extra": "^8.1.0",
     "minimist": "^1.2.0",
-    "sanitize-filename": "^1.6.1",
+    "sanitize-filename": "^1.6.2",
     "twig": "^1.13.3"
   },
   "devDependencies": {
