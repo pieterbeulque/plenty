@@ -43,7 +43,7 @@
     "fs-extra": "^8.1.0",
     "minimist": "^1.2.0",
     "sanitize-filename": "^1.6.3",
-    "twig": "^1.13.3"
+    "twig": "^1.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
