@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/pieterbeulque/plenty#readme",
   "dependencies": {
-    "csv-parse": "^4.8.8",
+    "csv-parse": "^4.9.0",
     "fs-extra": "^8.1.0",
     "minimist": "^1.2.5",
     "sanitize-filename": "^1.6.3",
